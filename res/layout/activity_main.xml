@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/showmap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="광고플랫폼프로젝트"
+        android:textSize="30dp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/title" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:text="이 application은 광고플랫폼을 구현하기 위한 application입니다."
+        android:textSize="20dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/content" />
+
+    <ImageView
+        android:id="@+id/stamp1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/stamp1"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/stamp4"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stamp1"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stamp4"
+        android:layout_toRightOf="@+id/stamp2"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stamp7"
+        android:layout_toRightOf="@+id/stamp5"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stamp2"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stamp5"
+        android:layout_toRightOf="@+id/stamp3"
+        android:src="@drawable/goodjob" />
+
+    <ImageView
+        android:id="@+id/stamp9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/stamp8"
+        android:layout_toRightOf="@+id/stamp6"
+        android:src="@drawable/goodjob" />
+
+</RelativeLayout>
